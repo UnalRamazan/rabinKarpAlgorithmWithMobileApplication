@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AlgorithmActivity"
+    android:orientation="vertical"
+    android:background="#2B2B2B">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rabin Karp Algorithm Java"
+                android:textColor="@color/text_color_light"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:background="@drawable/code_design">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/demo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/code1"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/image">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/code2"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/image">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rabin Karp Algorithm Android Java"
+                android:textColor="@color/text_color_light"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:background="@drawable/code_design"
+                android:layout_marginTop="10dp">
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/code3"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/image">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/code4"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/image">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/code5"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/image">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/code6"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/image">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/code7"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/image">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/code8"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/image">
+            </ImageView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Rabin Karp Algorithm App</string>
+    <string name="input_text">TEXT</string>
+    <string name="input_pattern">PATTERN</string>
+    <string name="search">Search</string>
+    <string name="algorithm">Algorithm-Code</string>
+    <string name="time">Time:</string>
+
+    //error message
+    <string name="mismatched_size">Pattern size cannot be larger than the text. Please try again!</string>
+    <string name="empty_text">*Text cannot be empty!</string>
+    <string name="empty_pattern">*Pattern cannot be empty!</string>
+
+    //image
+    <string name="image">Image</string>
+</resources>
